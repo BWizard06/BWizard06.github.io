@@ -1,0 +1,26 @@
+.redBackground {
+    background-color:#000000 ;
+    color:#FF0000 ;
+}
+.Probe {
+    background-color: #FF0000;
+    color: rgb(0, 0, 0);
+}
+.centertext{
+    text-align: center;
+}
+.new {
+    font-size: 40px ;
+}
+#navigation{
+    font-family: "Papyrus", fantasy; 
+}
+#titelgroesse{
+    font-size: 2cm;
+}
+.grosseschrift{
+    font-size: 50   
+}
+a:visited{
+    color: #FF0000;
+}
