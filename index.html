@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta charset="utf-8">
     <link rel="stylesheet" href="/main.css">  
     <title>Web Portfolio von Ben</title>
   </head>
   <body>
-    <ul>
-      <li><a href="/" >Home</a></li>
-      <li><a href="/blog/" target="_blank">Blog</a></li>
-      <li><a href="/projekte/" target="_blank">Projekte</a></li>
-      <li><a href="/kontakt/" target="_blank">Kontakt</a></li>
-    </ul>
-    <h1 class="centertext" id="titelgroesse">Web Portfolio von Ben</h1>
-    <h2 class="new centertext"><span class="redBackground">Willkommen</span> in der <span class="redBackground grosseschrift ">Schule</span> </h2>
-      <p class = "centertext"><span class="Probe grosseschrift">Schön,</span> <span class="Probe "> dass sie auf meiner Seite vorbei schauen</span> </p>
-        <a id="Link" href="https://www.youtube.com/watch?v=DFZJ8O9uW_k"><img src="erstes_Bild.jpg" alt="JDM Car" height="400px" width="600px" > </a>
-      <p>Hier ist mein <a id="Link" href="https://github.com/BWizard06">Github</a> verlinkt</p>
-        <p class = "Probe new" id="navigation">Danke fürs anschauen:)</p>
-      <a href="mailto:benbraendle@outlook.com" title="Send me an E-Mail!">Send me an E-Mail</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li><a class="nav-link active" href="/">Home</a></li>
+            <li><a class="nav-link" href="blog/">Blog</a></li>
+            <li><a class="nav-link" href="projekte/">Projekte</a></li>
+            <li><a class="nav-link" href="kontakt/">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <h1 class="text-center" id="titelgroesse">Web Portfolio von Ben</h1>
+        <h2 class="new text-center"><span class="redBackground">Willkommen</span> in der <span class="redBackground grosseschrift ">Schule</span> </h2>
+          <p class = "centertext"><span class="Probe grosseschrift">Schön,</span> <span class="Probe "> dass sie auf meiner Seite vorbei schauen</span> </p>
+            <a href="https://www.youtube.com/watch?v=DFZJ8O9uW_k"><img src="erstes_Bild.jpg" alt="JDM Car" height="400px" width="600px" > </a>
+              <p>Hier ist mein <a href="https://github.com/BWizard06">Github</a> verlinkt</p>
+                <p class = "Probe new" id="navigation">Danke fürs anschauen:)</p>
+    </div>   
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   </body>
 </html>
